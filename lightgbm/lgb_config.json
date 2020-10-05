@@ -1,0 +1,19 @@
+{
+  "boosting_type": "gbdt",
+  "objective": "multiclass",
+  "metric":  "multi_error",
+  "num_class": 6,
+  "num_leaves": 256,
+  "lambda_l2": 20,
+  "lambda_l1":0.0,
+  "bagging_fraction": 0.9,
+  "feature_fraction": 0.5,
+  "bagging_freq": 10,
+  "learning_rate": 0.05,
+  "bagging_seed": 2019,
+  "feature_fraction_seed": 2019,
+  "num_threads": 48
+}
+
+
+
